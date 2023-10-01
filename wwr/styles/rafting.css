@@ -1,0 +1,98 @@
+/* Gerneral */
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+:root {
+    --primary-color: #0262DE;
+    --secondary-color: #249456;
+    --accent1-color: #5E68D4;
+    --accent2-color: #829B86;
+
+    --heading-font: Mooli, sans-serif;
+    --paragraph-font: Mooli, sans-serif;
+
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: black;
+    --nav-hover-link-color: black;
+    --nav-hover-background-color: var(--secondary-color);
+}
+
+* {
+    font-family: var(--paragraph-font);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header img{
+    float: left;
+}
+
+header nav {
+    /* background-color: var(--nav-background-color); */
+    display: flex;
+}
+
+header nav a:link, header nav a:visited {
+    color: var(--nav-link-color)
+}
+
+/* Body */
+body {
+    max-width: 960px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero div{
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    background-color: rgba(0,0,0, 0.5);
+    width: 960px;
+}
+
+.hero article {
+    position: absolute;
+    top: 305px;
+    width: 960px;
+    height: auto;
+    background-color: rgba(0,0,0, 0.5);
+    color:  var(--primary-color);
+}
+
+.hero article img {
+    float: right;
+    padding: 5px;
+    width: auto;
+    height: 125px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section img {
+    display: block;
+    box-shadow: 0 0 10px grey;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+}
+
+footer nav img {
+    /* background-color: var(--nav-background-color); */
+    height: auto;
+}
