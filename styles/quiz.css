@@ -1,0 +1,18 @@
+* {
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #EEE;
+
+}
+
+label {
+    padding: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
