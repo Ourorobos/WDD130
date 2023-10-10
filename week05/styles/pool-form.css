@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+:root {
+    --primary-color: #023D90; /* SteelBlue (#4682ba) - (#444444) */
+    --background-color: #DDD;
+    --form-background-color: #DDE;
+}
+
+* {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+
+    text-align: center;
+    font-family: Mooli, sans-serif;
+
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+form {
+    margin-left: 20%;
+    margin-right: 20%;
+
+    border: var(--primary-color) solid 1px;
+}
+
+fieldset {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+button {
+    margin: 5px;
+}
+
+button :hover :active {
+    color: var(--background-color);
+    background-color: var(--primary-color);
+}
+
+footer {
+    margin-top: 25px;
+    border-top: var(--primary-color) solid 1px;
+    border-radius: 0px;
+}

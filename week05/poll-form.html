@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<hmtl lang = "en-us">
+
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "wdith = device-width, inital-scale = 1">
+        <link rel="stylesheet" href="styles/pool-form.css">
+        <title>
+            WDD 130 | HTML Form - User Poll
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>WDD 130 | Steven Scott | HTML Form - User Poll</h1>
+        </header>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>
+                        Contact Information
+                    </legend>
+
+                    <label>
+                        Full Name: <input type = "text" name = "fullname">
+                    </label>
+                    <label>
+                        Email: <input type = "email" name = "useremail">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        Questions
+                    </legend>
+
+                    <label>
+                        What is your favortie internet browser?
+                        <select name = "browser">
+                            <option value = "chrome">Chrome</option>
+                            <option value = "firefox">Firefox</option>
+                            <option value = "safari">Safari</option>
+                            <option value = "edge">Edge</option>
+                            <option value = "brave">Brave</option>
+                            <option value = "other">Other</option>
+                        </select>
+                    </label>
+                    <label>
+                        Do you have a house pet? <input type = "checkbox" name = "pet">
+                    </label>
+                    <label>
+                        List the places you have lived: <textarea name = "feedback" rows = "4" placeholder = "City-State, City-State, City-State"></textarea>
+                    </label>
+                </fieldset>
+
+                <button type = "submit">Submit Poll</button>
+            </form>
+
+        </main>
+
+        <footer>
+            <p>
+                &copy;2023, Steven Scott
+            </p>
+        </footer>
+    </body>
+</hmtl>
