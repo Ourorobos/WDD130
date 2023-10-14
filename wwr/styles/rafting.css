@@ -113,3 +113,55 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+/* Contact page */
+.ourinfo {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.empolye div {
+    display: flex;
+    justify-content: space-around;
+}
+
+section h2{
+    text-align: center;
+    border-top: var(--primary-color) solid 1px;
+    padding: 5px;
+}
+
+form {
+    margin: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+    border: var(--primary-color) solid 1px;
+    border-radius: 10px;
+}
+
+fieldset {
+    margin: 5px;
+
+    border: var(--primary-color) solid 1px;
+    border-radius: 10px;
+}
+
+.radio, .info {
+    display: flex;
+    justify-content: space-around;
+}
+
+fieldset textarea {
+    margin: 5px;
+}
+
+form button {
+    margin: 5px;
+    align-self: center;
+}
