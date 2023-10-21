@@ -189,3 +189,50 @@ table, th, td {
     top: 170%;
     left: 23%;
 }
+
+/* Home page */
+.ui {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ui div {
+    display: block;
+    max-width: 40%;
+}
+
+.ui div img {
+    float: right;
+}
+
+.grid {
+    margin: 25px;
+    display: grid;
+}
+
+.grid div {
+    display: block;
+    margin: 10px;
+    max-width: 80%;
+}
+
+.grid div img {
+    padding: 5px;
+}
+
+#left {
+    grid-column: 1;
+}
+
+#left img {
+    float: left;
+}
+
+#right {
+    grid-column: 2;
+}
+
+#right img {
+    float: right;
+}
