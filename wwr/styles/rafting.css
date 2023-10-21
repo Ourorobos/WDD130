@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 125px;
 }
 
-.hero img {
+.hero img, .action a img {
     display: block;
     width: 100%;
     height: auto;
@@ -164,4 +164,28 @@ fieldset textarea {
 form button {
     margin: 5px;
     align-self: center;
+}
+
+/* Trips Page */
+.trips h1 {
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 15px;
+}
+
+.action{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.action h2 {
+    border-block: 1px solid var(--primary-color);
+    position: absolute;
+    top: 170%;
+    left: 23%;
 }
