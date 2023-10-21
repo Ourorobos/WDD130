@@ -183,11 +183,14 @@ table, th, td {
     margin-bottom: 20px;
 }
 
-.action h2 {
-    border-block: 1px solid var(--primary-color);
+.action button {
+    width: 100px;
+    height: 100px;
+    color: var(--paragraph-color);
     position: absolute;
     top: 170%;
-    left: 23%;
+    left: 32%;
+    background-color: rgba(128,128,128,0.5);
 }
 
 /* Home page */
@@ -204,6 +207,10 @@ table, th, td {
 
 .ui div img {
     float: right;
+}
+
+.ui div form {
+    display: block
 }
 
 .grid {
